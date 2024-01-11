@@ -1,0 +1,15 @@
+;;;input_1
+0 0 1 0 0 -
+1 1 0 1 0 -
+0 1 1 1 1 -
+0 0 0 0 1 -
+1 1 1 0 0 -
+0 0 0 1 1 -
+
+;;;|N| = 6
+;;;|M| = 5
+;;;min_righe = 5; max_righe = 10;
+;;;min_colonne = 4; max_colonne = 6;
+;;;percentuale_zero = 53%
+
+

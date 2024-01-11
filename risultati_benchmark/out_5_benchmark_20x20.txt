@@ -1,0 +1,65 @@
+;;;RIASSUNTO ESECUZIONE COMPLETA
+;;;matrice A
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:1
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:2
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:3
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:4
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:5
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:6
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0- #indice:7
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0- #indice:8
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0- #indice:9
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0- #indice:10
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0- #indice:11
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0- #indice:12
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0- #indice:13
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0- #indice:14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0- #indice:15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0- #indice:16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0- #indice:17
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0- #indice:18
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1- #indice:19
+
+#Dimensioni: 
+A -> 288 bytes
+B base iniziale -> 3912 bytes
+B plus iniziale -> 3912 bytes
+
+B finale -> 3912 bytes
+
+Cardinalità:
+
+COV base -> 288 bytes
+
+COV plus -> 288 bytes
+
+#Risultato COV base =
+{19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0}
+
+#Risultato COV plus =
+{19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0}
+
+#Heap base
+Index Count     Size  Cumulative Size             Object Name
+    0    21     3384     3384                           list
+    1     2      576     3960                  numpy.ndarray
+    2     1      408     4368                types.FrameType
+    3     1      136     4504                       function
+    5     1       72     4576               builtins.weakref
+    6     2       48     4624                          float
+
+Spazio totale di heap occupato = 4.52 KB
+
+#Heap plus
+Index Count     Size  Cumulative Size             Object Name
+    0    21     3384     3384                           list
+    1     2      576     3960                  numpy.ndarray
+    2     1      408     4368                types.FrameType
+    4     2       48     4416                          float
+
+Spazio totale di heap occupato = 4.31 KB
+
+Tempo di esecuzione base: 2500.627040863037 millisecondi
+
+Tempo di esecuzione plus: 1018.5644626617432 millisecondi

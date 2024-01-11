@@ -1,0 +1,43 @@
+;;;RIASSUNTO ESECUZIONE COMPLETA
+;;;matrice A
+0 0 0 0 0 1- #indice:0
+0 0 0 1 0 0- #indice:1
+0 1 0 0 0 0- #indice:2
+0 0 0 0 0 1- #indice:3
+0 0 1 0 1 1- #indice:4
+0 0 0 0 0 1- #indice:5
+1 0 1 0 1 0- #indice:6
+
+#Dimensioni: 
+A = 168 bytes
+B = 1160 bytes
+COV = 516 bytes
+
+#Risultato COV =
+{6, 2, 1, 0}
+{6, 3, 2, 1}
+{6, 5, 2, 1}
+
+Numero delle partizioni trovate = 3
+Distribuzione della cardinalità del COV:
+	Numero di elementi con cardinalità 4 = 3
+Numero di set = 6
+Cardinalità = 6
+
+#Heap
+Index Count     Size  Cumulative Size             Object Name
+    1     5      536      536                           list
+    2    14      784     1320                          tuple
+    3     1      408     1728                types.FrameType
+    4     1      168     1896                  numpy.ndarray
+    5     1      136     2032                       function
+    6     1       72     2104               builtins.weakref
+    7     2       48     2152                          float
+
+Spazio totale di heap occupato = 2.10 KB
+
+Tempo di esecuzione: 2.004384994506836 millisecondi
+
+Numero nodi visitati = 42
+Numero totale dei nodi visitati = 127
+Percentuale dei nodi visitati sul totale = 33.0709%

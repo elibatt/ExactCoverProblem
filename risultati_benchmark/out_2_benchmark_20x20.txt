@@ -1,0 +1,67 @@
+;;;RIASSUNTO ESECUZIONE COMPLETA
+;;;matrice A
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:1
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:2
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:3
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:4
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:5
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:6
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0- #indice:7
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0- #indice:8
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0- #indice:9
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0- #indice:10
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0- #indice:11
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0- #indice:12
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0- #indice:13
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0- #indice:14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0- #indice:15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0- #indice:16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0- #indice:17
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0- #indice:18
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1- #indice:19
+
+#Dimensioni: 
+A -> 5428 bytes
+B base iniziale -> 12860 bytes
+B plus iniziale -> 12860 bytes
+
+B base finale -> 12860 bytes
+
+B plus finale -> 12860 bytes
+
+COV base -> 830 bytes
+
+COV plus -> 830 bytes
+
+#Risultato COV base =
+{19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0}
+
+#Risultato COV plus =
+{19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0}
+
+#Heap base
+Index Count     Size  Cumulative Size             Object Name
+    0   190    10640    10640                          tuple
+    1    24     7344    17984                           list
+    2    17      442    18426                    numpy.int16
+    3     1      408    18834                types.FrameType
+    4     1      136    18970                       function
+    6     1       72    19042               builtins.weakref
+    7     2       48    19090                          float
+
+Spazio totale di heap occupato = 18.64 KB
+
+#Heap plus
+Index Count     Size  Cumulative Size             Object Name
+    0   190    10640    10640                          tuple
+    1    24     7344    17984                           list
+    2    17      442    18426                    numpy.int16
+    3     1      408    18834                types.FrameType
+    5     2       48    18882                          float
+
+Spazio totale di heap occupato = 18.44 KB
+
+Tempo di esecuzione base: 206523.3838558197 millisecondi
+
+Tempo di esecuzione plus: 197510.02478599548 millisecondi

@@ -1,0 +1,12 @@
+;;;configurazioni
+min_righe = 200
+max_righe = 200
+min_colonne = 20
+max_colonne = 20
+min_percentuale_zero = 65
+max_percentuale_zero = 75
+num_file_da_generare = 5
+elimina_righe_zeri = False
+elenco_nodi_visitati = False
+tempo_limite = 300
+

@@ -1,0 +1,55 @@
+;;;RIASSUNTO ESECUZIONE COMPLETA
+;;;matrice A
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:1
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:2
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:3
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:4
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:5
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0- #indice:6
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0- #indice:7
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0- #indice:8
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0- #indice:9
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0- #indice:10
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0- #indice:11
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0- #indice:12
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0- #indice:13
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0- #indice:14
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0- #indice:15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0- #indice:16
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0- #indice:17
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0- #indice:18
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1- #indice:19
+
+#Dimensioni: 
+A = 288 bytes
+B = 3912 bytes
+COV = 288 bytes
+
+#Risultato COV =
+{19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0}
+
+Numero delle partizioni trovate = 1
+Distribuzione della cardinalità del COV:
+	Numero di elementi con cardinalità 20 = 1
+Numero di set = 20
+Cardinalità = 20
+
+Cardinalità di N:
+	Numero di elementi con cardinalità 1 = 20
+
+#Heap
+Index Count     Size  Cumulative Size             Object Name
+    1    21     3384 102023746                           list
+    2     2      576 102024322                  numpy.ndarray
+    3     1      408 102024730                types.FrameType
+    4     1      136 102024866                       function
+    5     1       72 102024938               builtins.weakref
+    6     2       48 102024986                          float
+
+Spazio totale di heap occupato = 4.52 KB
+
+Tempo di esecuzione: 5317.39068031311 millisecondi
+Numero nodi visitati = 1048575
+Numero totale nodi visitati = 1048575
+Percentuale nodi visitati = 100.0000%

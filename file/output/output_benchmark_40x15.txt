@@ -1,0 +1,114 @@
+;;;RIASSUNTO ESECUZIONE COMPLETA
+;;;matrice A
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:0
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:2
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:3
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:4
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:5
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:6
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:7
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:8
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:9
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:10
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:11
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:12
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:13
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:14
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:15
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:16
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:17
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:18
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:19
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:20
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:21
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:22
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:23
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:24
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:25
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:26
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:27
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:28
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:29
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:30
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:31
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:32
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:33
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:34
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:35
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:36
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:37
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:38
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1- #indice:39
+
+#Dimensioni: 
+A = 4928 bytes
+B = 2664 bytes
+COV = 448 bytes
+
+#Risultato COV =
+{0}
+{1}
+{2}
+{3}
+{4}
+{5}
+{6}
+{7}
+{8}
+{9}
+{10}
+{11}
+{12}
+{13}
+{14}
+{15}
+{16}
+{17}
+{18}
+{19}
+{20}
+{21}
+{22}
+{23}
+{24}
+{25}
+{26}
+{27}
+{28}
+{29}
+{30}
+{31}
+{32}
+{33}
+{34}
+{35}
+{36}
+{37}
+{38}
+{39}
+
+Numero delle partizioni trovate = 40
+Distribuzione della cardinalità del COV:
+	Numero di elementi con cardinalità 1 = 40
+Numero di set = 40
+Cardinalità = 15
+
+Cardinalità di N:
+	Numero di elementi con cardinalità 15 = 40
+
+#Heap
+Index Count     Size  Cumulative Size             Object Name
+    0     2     5376     5376                  numpy.ndarray
+    1    41     2664     8464                           list
+    3     1      408    11219                types.FrameType
+    4     1      136    11355                       function
+    5     1       72    11427               builtins.weakref
+    6     2       48    11475                          float
+
+Spazio totale di heap occupato = 8.50 KB
+
+Tempo di esecuzione: 1.1529922485351562 millisecondi
+Numero nodi visitati = 40
+Numero totale nodi visitati = 1099511627775
+Percentuale nodi visitati = 0.0000%
